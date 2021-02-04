@@ -16,7 +16,7 @@ function SimpleCounter(props) {
 			<div className="four">{props.digitFour % 30} dd</div>
 			<div>{props.points}</div>
 			<div className="three">
-				{props.digitThree % 60}
+				{props.digitThree % 24}
 				hh
 			</div>
 			<div>{props.points}</div>
